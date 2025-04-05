@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DentalSoft</string>
+    <string name="login_descripcion_Text">Inicia sesión o crea una cuenta y disfruta todo lo que tenemos para ti</string>
+    <string name="login_titulo_Text">¡Te damos la Bienvenida!</string>
+    <string name="login_ingresar_Button">Ingresar</string>
+    <string name="login_registrarse_Button">Registrarse</string>
+    <string name="login_politica_Button">Politica de privacidad</string>
+    <string name="login_version_Text">Version GMC_COL2025JQO.3</string>
+
+    <string name="iniciosesion_descripcion_ImageView">Logo Dentalitix</string>
+    <string name="iniciosesion_titulo_Text">Inicia Sesión</string>
+    <string name="iniciosesion_correo_Titulo">Correo electrónico</string>
+    <string name="iniciosesion_correo_Hint">Ingresa tu correo electrónico</string>
+    <string name="iniciosesion_password_Titulo">Contraseña</string>
+    <string name="iniciosesion_password_Hint">Ingresa tu contraseña</string>
+    <string name="iniciosesion_olvidastepassword_Button">¿Olvidaste tu contraseña?</string>
+    <string name="iniciosesion_iniciarsesion_Button">Inicia sesión</string>
+    <string name="iniciosesion_iniciargoogle_Button">Ingresa con Google</string>
+
+    <string name="registrosesion_descripcion_ImageView">Logo Dentalitix</string>
+    <string name="registrosesion_correo_Titulo">Correo electrónico</string>
+    <string name="registrosesion_correo_Hint">Ingresa tu correo electrónico</string>
+    <string name="registrosesion_password_Titulo">Contraseña</string>
+    <string name="registrosesion_password_Hint">Ingresa tu contraseña</string>
+    <string name="registrosesion_password_Titulo2">Repita Contraseña</string>
+    <string name="registrosesion_iniciarsesion_Button">Inicia sesión</string>
+    <string name="registrosesion_titulo_Text">Registrate</string>
+    <string name="registrosesion_registrarse_Text">Registrarse</string>
+    <string name="registrosesion_tienecuenta_Button">¿Ya tienes una cuenta?, Inicia sesion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pantalla_usuario">PantallaUsuario</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
