@@ -6,20 +6,26 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_inicio"
         android:name="com.example.dentalsoft.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_inicio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_citas"
         android:name="com.example.dentalsoft.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_citas"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_historial"
         android:name="com.example.dentalsoft.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_historial"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.dentalsoft.ui.notifications.NotificationsFragment"
+        android:label="@string/title_perfil"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
