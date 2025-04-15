@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DentalSoft</string>
+    <string name="login_bienvenida">Bienvenido a DentalSoft</string>
+    <string name="login_iniciarsesion">Iniciar Sesion</string>
+    <string name="login_registrarse">Registrarse</string>
+    <string name="login_politicaprivacidad">Politica de privacidad</string>
+    <string name="login_version">COLAPRILV5.114042025.1</string>
 </resources>
