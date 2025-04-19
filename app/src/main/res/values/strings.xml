@@ -11,6 +11,12 @@
     <string name="login_google">Iniciar con Google</string>
     <string name="login_o">Ó</string>
     <string name="login_registrate">¿No tienes una cuenta? Registrate!</string>
+    <string name="register_nombre">Nombres</string>
+    <string name="register_apellidos">Apellidos</string>
+    <string name="register_correo">Correo Electronico</string>
+    <string name="register_nacimiento">Fecha de Nacimiento</string>
+    <string name="register_nacionalidad">Nacionalidad</string>
+    <string name="register_numeroCelular">Numero de Telefono Movil</string>
 
     <string name="default_web_client_id">714629425400-c7on9ggh335gk20skqbisp856ef88r04.apps.googleusercontent.com</string>
     <!-- TODO: Remove or change this placeholder text -->
