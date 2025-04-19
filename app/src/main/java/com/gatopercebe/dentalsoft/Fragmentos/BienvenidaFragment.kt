@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 import com.gatopercebe.dentalsoft.R
+import org.w3c.dom.Text
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -40,4 +43,22 @@ class BienvenidaFragment : Fragment() {
                 }
             }
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val iniciarSesionButton = view.findViewById<Button>(R.id.iniciarSesionButton)
+        val registrarseButton = view.findViewById<Button>(R.id.registrarseButton)
+        val politicaPrivacidadText = view.findViewById<TextView>(R.id.politicaPrivacidadText)
+
+        iniciarSesionButton.setOnClickListener {
+            val nuevoFragmento = LoginFragment()
+
+            parentFragmentManager.beginTransaction()
+                .replace(R.id.contenedorFragmentos, nuevoFragmento)
+                .addToBackStack(null)
+                .commit()
+        }
+    }
+
 }

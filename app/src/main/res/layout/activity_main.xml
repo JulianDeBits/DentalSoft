@@ -1,19 +1,27 @@
-<ScrollView
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
     android:paddingHorizontal="3dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
 
-       <androidx.fragment.app.FragmentContainerView
-           android:id="@+id/contenedorFragmentos"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content">
-       </androidx.fragment.app.FragmentContainerView>
-    </LinearLayout>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/contenedorFragmentos"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="360dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></androidx.fragment.app.FragmentContainerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
